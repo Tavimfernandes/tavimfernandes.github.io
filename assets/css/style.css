@@ -17,9 +17,23 @@ Imports
 
 body {
     font-size: 100%;
-    background: #0A1626;
+    background-color: #0A1626!important;
+}
+
+.nav-link{
+    color: #D9BD9C!important;
 }
 
 /**
 Header
 **/ 
+header{
+    width: 100%;
+}
+
+btn-primary{
+    color: #0A1626;
+    background-color: #D9BD9C;
+}
+
+
