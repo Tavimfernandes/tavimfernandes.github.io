@@ -17,23 +17,140 @@ Imports
 
 body {
     font-size: 100%;
-    background-color: #0A1626!important;
-}
-
-.nav-link{
-    color: #D9BD9C!important;
+    background: linear-gradient(68.15deg, #1e344f 16.62%, #0A1626 85.61%);
 }
 
 /**
 Header
-**/ 
-header{
-    width: 100%;
+**/
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
 }
 
-btn-primary{
+.cabecalho-imagem{
+    max-width: 80px;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+    width: 100%
+}
+.cabecalho-menu-item{
+    font-family: 'Roboto', sans-serif;
+    color: #FFF2e7;
+    font-size: 18px;
+}
+
+.navbar-collapse{
+    justify-content: end;
+}
+
+/**
+Main
+**/
+
+.conteudo{
+    margin-bottom: 48px;
+}
+#conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.conteudo-principal-escrito-titulo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+    font-size: 64px;
+    color: #CEDEF2;
+}
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200px;
+    font-size: 24px;
+    color: #7794B4;
+}
+.conteudo-principal-escrito-botao{
+    background-color: #4B67F2;
+    color: #001370;
+    width: 150px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+.conteudo-principal-escrito-redes > img{
+    width: 48px;
+    margin: 0px 20px 0px 0px;
+}
+.conteudo-principal-escrito-botao:hover{
+    background-color: #022AF0;
+    color: #FFF2e7;
+    cursor: pointer;
+}
+.conteudo-principal-imagem{
+    max-width: 450px;
+    padding: 20px;
+}
+/**
+Sessão Sobre mim
+**/
+#conteudo-secundario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    text-align: left;
+    gap: 24px;
+    margin-top: 48px;
+    background-color: #CEDEF2;
+    padding-left: 40px;
+}
+.conteudo-secundario-titulo{
+    padding-top: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700px;
+    font-size: 24px;
     color: #0A1626;
-    background-color: #D9BD9C;
+}
+.conteudo-secundario-subtitulo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+    font-size: 14px;
+    color: #7794B4; 
 }
 
+#conteudo-secundario > span > img {
+    width: 450px;
 
+}
+/**
+Footer
+**/
+#rodape{
+    border-top: 0.4px solid #FFF2e7;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.rodape-titulo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400px;
+    font-size: 32px;
+    color: #FFF2e7;
+}
