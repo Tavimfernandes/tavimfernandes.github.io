@@ -24,7 +24,7 @@ body {
 Header
 **/
 
-.cabecalho{
+.cabecalho {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -32,21 +32,23 @@ Header
     padding: 24px;
 }
 
-.cabecalho-imagem{
+.cabecalho-imagem {
     max-width: 80px;
 }
-.cabecalho-menu{
+
+.cabecalho-menu {
     display: flex;
     gap: 32px;
     width: 100%
 }
-.cabecalho-menu-item{
+
+.cabecalho-menu-item {
     font-family: 'Roboto', sans-serif;
     color: #FFF2e7;
     font-size: 18px;
 }
 
-.navbar-collapse{
+.navbar-collapse {
     justify-content: end;
 }
 
@@ -54,33 +56,38 @@ Header
 Main
 **/
 
-.conteudo{
+.conteudo {
     margin-bottom: 48px;
 }
-#conteudo-principal{
+
+#conteudo-principal {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
 }
-.conteudo-principal-escrito{
+
+.conteudo-principal-escrito {
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
-.conteudo-principal-escrito-titulo{
+
+.conteudo-principal-escrito-titulo {
     font-family: 'Roboto', sans-serif;
     font-weight: 400px;
     font-size: 64px;
     color: #CEDEF2;
 }
-.conteudo-principal-escrito-subtitulo{
+
+.conteudo-principal-escrito-subtitulo {
     font-family: 'Roboto', sans-serif;
     font-weight: 200px;
     font-size: 24px;
     color: #7794B4;
 }
-.conteudo-principal-escrito-botao{
+
+.conteudo-principal-escrito-botao {
     background-color: #4B67F2;
     color: #001370;
     width: 150px;
@@ -91,23 +98,27 @@ Main
     border-radius: 20px;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
 }
-.conteudo-principal-escrito-redes > img{
+
+.conteudo-principal-escrito-redes>img {
     width: 48px;
     margin: 0px 20px 0px 0px;
 }
-.conteudo-principal-escrito-botao:hover{
+
+.conteudo-principal-escrito-botao:hover {
     background-color: #022AF0;
     color: #FFF2e7;
     cursor: pointer;
 }
-.conteudo-principal-imagem{
+
+.conteudo-principal-imagem {
     max-width: 450px;
     padding: 20px;
 }
+
 /**
 Sessão Sobre mim
 **/
-#conteudo-secundario{
+#conteudo-secundario {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -119,28 +130,35 @@ Sessão Sobre mim
     background-color: #CEDEF2;
     padding-left: 40px;
 }
-.conteudo-secundario-titulo{
+
+.conteudo-secundario-titulo {
     padding-top: 48px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700px;
     font-size: 24px;
     color: #0A1626;
 }
-.conteudo-secundario-subtitulo{
+
+.conteudo-secundario-subtitulo {
     font-family: 'Roboto', sans-serif;
     font-weight: 400px;
     font-size: 14px;
-    color: #7794B4; 
+    color: #7794B4;
 }
 
-#conteudo-secundario > span > img {
+#conteudo-secundario>span>img {
     width: 450px;
 
 }
+
+/**
+Conteudo - Habilidades
+**/
+
 /**
 Footer
 **/
-#rodape{
+#rodape {
     border-top: 0.4px solid #FFF2e7;
     padding: 32px;
     display: flex;
@@ -148,7 +166,8 @@ Footer
     justify-content: center;
     text-align: center;
 }
-.rodape-titulo{
+
+.rodape-titulo {
     font-family: 'Poppins', sans-serif;
     font-weight: 400px;
     font-size: 32px;
