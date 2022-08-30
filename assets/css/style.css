@@ -154,6 +154,18 @@ Sessão Sobre mim
 /**
 Conteudo - Habilidades
 **/
+.habilidades-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+}
+.habilidades-header > h3{
+    color: #CEDEF2;
+}
+.habilidades-header > p, label{
+    color: #7794B4;
+}
 
 /**
 Footer
