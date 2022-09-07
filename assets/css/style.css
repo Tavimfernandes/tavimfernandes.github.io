@@ -154,7 +154,7 @@ Sessão Sobre mim
 /**
 Conteudo - Habilidades
 **/
-.habilidades-header{
+.habilidades-header, .habilidades-footer{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -163,9 +163,31 @@ Conteudo - Habilidades
 .habilidades-header > h3{
     color: #CEDEF2;
 }
-.habilidades-header > p, label{
+.habilidades-header, .habilidades-footer > p, label{
     color: #7794B4;
 }
+.habilidades-list{
+    display: flex;
+    justify-content: space-around;
+}
+.habilidades-list > img{
+    width: 125px;
+}
+.habilidades-footer > img{
+    width: 50px;
+}
+
+/**
+Projetos
+**/
+
+
+
+/**
+Contato
+**/
+
+
 
 /**
 Footer
