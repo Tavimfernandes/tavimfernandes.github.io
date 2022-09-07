@@ -182,6 +182,9 @@ Conteudo - Habilidades
 Projetos
 **/
 .projetos-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-family: Roboto, sans-serif;
 }
 .projetos-header > h3{
