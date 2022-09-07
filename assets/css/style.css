@@ -75,14 +75,14 @@ Main
 
 .conteudo-principal-escrito-titulo {
     font-family: 'Roboto', sans-serif;
-    font-weight: 400px;
+    font-weight: 700;
     font-size: 64px;
     color: #CEDEF2;
 }
 
 .conteudo-principal-escrito-subtitulo {
     font-family: 'Roboto', sans-serif;
-    font-weight: 200px;
+    font-weight: 500;
     font-size: 24px;
     color: #7794B4;
 }
@@ -134,7 +134,7 @@ Sessão Sobre mim
 .conteudo-secundario-titulo {
     padding-top: 48px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 700px;
+    font-weight: 600;
     font-size: 24px;
     color: #0A1626;
 }
@@ -162,6 +162,7 @@ Conteudo - Habilidades
 }
 .habilidades-header > h3{
     color: #CEDEF2;
+    font-weight: 600;
 }
 .habilidades-header, .habilidades-footer > p, label{
     color: #7794B4;
@@ -180,7 +181,13 @@ Conteudo - Habilidades
 /**
 Projetos
 **/
-
+.projetos-header{
+    font-family: Roboto, sans-serif;
+}
+.projetos-header > h3{
+    color: #CEDEF2;
+    font-weight: 600;
+}
 
 
 /**
