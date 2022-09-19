@@ -1,5 +1,5 @@
 /**
-CSS minha landing Page
+CSS landing Page
 **/
 
 /**
@@ -39,13 +39,14 @@ Header
 .cabecalho-menu {
     display: flex;
     gap: 32px;
-    width: 100%
+    width: 100%;
 }
 
 .cabecalho-menu-item {
     font-family: 'Roboto', sans-serif;
     color: #FFF2e7;
     font-size: 18px;
+    border: none!important;
 }
 
 .navbar-collapse {
