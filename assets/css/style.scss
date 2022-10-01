@@ -1,0 +1,338 @@
+/**
+CSS landing Page
+**/
+
+/**
+Imports
+**/
+
+// Required Core Stylesheet
+//@import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+
+// Optional Theme Stylesheet
+//@import "node_modules/@glidejs/glide/src/assets/sass/glide.theme";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,400&display=swap');
+
+/**
+Variaveis
+**/
+
+
+
+/**
+Reset
+**/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #1e344f 16.62%, #0A1626 85.61%);
+}
+
+/**
+Header
+**/
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem {
+    max-width: 80px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+    width: 100%;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Roboto', sans-serif;
+    color: #FFF2e7;
+    font-size: 18px;
+    border: none!important;
+}
+
+.navbar-collapse {
+    justify-content: end;
+}
+
+/**
+Main
+**/
+
+.conteudo {
+    margin-bottom: 48px;
+}
+
+#conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: #CEDEF2;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #7794B4;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: #4B67F2;
+    color: #001370;
+    width: 150px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.conteudo-principal-escrito-redes>img {
+    width: 48px;
+    margin: 0px 20px 0px 0px;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: #022AF0;
+    color: #FFF2e7;
+    cursor: pointer;
+}
+
+.conteudo-principal-imagem {
+    max-width: 450px;
+    padding: 20px;
+}
+
+/**
+Sessão Sobre mim
+**/
+#conteudo-secundario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    text-align: left;
+    gap: 24px;
+    margin-top: 48px;
+    background-color: #CEDEF2;
+    padding-left: 40px;
+    border-radius: 25px;
+}
+
+.conteudo-secundario-titulo {
+    padding-top: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #0A1626;
+}
+
+.conteudo-secundario-subtitulo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+    font-size: 14px;
+    color: #7794B4;
+}
+
+#conteudo-secundario>span>img {
+    width: 450px;
+
+}
+
+/**
+Conteudo - Habilidades
+**/
+.habilidades-header, .habilidades-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+}
+.habilidades-header > h3{
+    color: #CEDEF2;
+    font-weight: 600;
+}
+.habilidades-header, .habilidades-footer > p, label{
+    color: #7794B4;
+}
+.habilidades-list{
+    display: flex;
+    justify-content: space-around;
+}
+.habilidades-list > img{
+    width: 125px;
+}
+.habilidades-footer > img{
+    width: 50px;
+}
+
+/**
+Projetos
+**/
+.projetos-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+}
+.projetos-header > h3{
+    color: #CEDEF2;
+    font-weight: 600;
+}
+.container-project{
+    position: relative;
+    padding: 15px;
+    max-width: 630px;
+    margin: 0 auto;
+}
+.gallery{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+}
+.gallery-wrapper {
+    overflow-x: auto;
+}
+.gallery > img{
+    width: 350px;
+}
+.arrow-left, .arrow-right {
+    position: absolute;
+    right: auto;
+    left: 0;
+    font-size: 20px;
+    line-height: 350px;
+    width: 40px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(to left, transparent 0%, black 200%);
+    opacity: 0.1;
+    transition: all 600ms ease-in-out;
+}
+.arrow-right {
+    left: auto;
+    right: 0;
+    background: linear-gradient(to right, transparent 0%, black 200%);  
+}
+.arrow-left:hover,
+.arrow-right:hover {
+    opacity: 1;
+}
+.item{
+    width: 350px;
+    height: 350px;
+    flex-shrink: 0;
+    opacity: 0.2;
+    transition: all 600ms ease-in-out;
+}
+.current-item{
+    opacity: 1;
+}
+
+/* This is from w3schools */
+/* 
+https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
+/* Hide scrollbar for Chrome, Safari and Opera */
+.gallery-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .gallery-wrapper {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+/**
+Contato
+**/
+
+#conteudo-contato {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    text-align: left;
+    gap: 24px;
+    margin-top: 48px;
+    background-color: #CEDEF2;
+    padding-left: 40px;
+    border-radius: 25px;
+}
+
+.conteudo-contato-titulo {
+    padding-top: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #0A1626;
+}
+
+.conteudo-contato-subtitulo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+    font-size: 14px;
+    color: #7794B4;
+}
+
+#conteudo-contato>div>img {
+    width: 250px;
+}
+
+.conteudo-contato-botoes>button>img {
+    width: 48px;
+    margin: 0px 20px 0px 0px;
+    background: none;
+}
+
+
+/**
+Footer
+**/
+#rodape {
+    border-top: 0.4px solid #FFF2e7;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.rodape-titulo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400px;
+    font-size: 32px;
+    color: #FFF2e7;
+}

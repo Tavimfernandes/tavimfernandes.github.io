@@ -31,3 +31,5 @@ controls.forEach((control) => {
     items[currentItem].classList.add("current-item");
   });
 });
+
+// Slide novo
